@@ -11,4 +11,4 @@ echo "starting container"
 docker pull 412381782395.dkr.ecr.us-east-1.amazonaws.com/aws-devops:latest
 
 # Run the new image
-docker run -d --name aws-du -p 8000:8000 412381782395.dkr.ecr.us-east-1.amazonaws.com/aws-devops:latest
+docker run -d --name aws-d -p 5000:5000 412381782395.dkr.ecr.us-east-1.amazonaws.com/aws-devops:latest
